@@ -16,6 +16,7 @@
     <br>
     Your department: ${employee.department}
     <br>
+    Your car: ${employee.carBrand}
 
     </body>
 
