@@ -11,14 +11,24 @@
 <form:form action="showDetails" modelAttribute="employee">
 
     Name <form:input path="name"/>
-    <br>
-    <br>
+    <br><br>
+
     Surname <form:input path="surname"/>
-    <br>
-    <br>
+    <br><br>
+
     Salary <form:input path="salary"/>
-    <br>
-    <br>
+    <br><br>
+
+    Department <form:select path="department">
+    <!--
+        <form:option value="Information Technology" label="IT"/>
+        <form:option value="Human Resources" label="HR"/>
+        <form:option value="Sales" label="Sales"/>
+        -->
+        <form:options items="${employee.departments}"/>
+    </form:select>
+    <br><br>
+
     <input type="submit" value="OK"/>
 
 </form:form>
