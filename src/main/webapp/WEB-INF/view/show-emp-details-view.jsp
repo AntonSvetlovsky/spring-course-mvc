@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-<body>
+    <body>
 
-<h2>Dear Employee, you are WELCOME!!!</h2>
-<br>
-<br>
-<br>
+    <h2>Dear Employee, you are WELCOME!!!</h2>
+    <br>
+    <br>
+    <br>
 
-<%--Your name: ${param.employeeName}--%>
-Your name: ${nameAttribute} ${description}
+    Your name: ${employee.name}
+    <br>
+    Your surname: ${employee.surname}
+    <br>
+    Your salary: ${employee.salary}
+    <br>
 
-</body>
+    </body>
 
 </html>
