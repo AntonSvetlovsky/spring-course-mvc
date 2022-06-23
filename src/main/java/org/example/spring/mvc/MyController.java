@@ -24,7 +24,8 @@ public class MyController {
     }
 
     @RequestMapping("/showDetails")
-    public String showEmployeeDetails(@Valid @ModelAttribute("employee") Employee emp, BindingResult bindingResult) {
+    public String showEmployeeDetails(@Valid @ModelAttribute("employee") Employee emp
+            , BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             return "ask-emp-details-view";
         } else {
