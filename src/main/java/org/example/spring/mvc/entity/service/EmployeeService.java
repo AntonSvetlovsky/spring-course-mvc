@@ -1,0 +1,10 @@
+package org.example.spring.mvc.entity.service;
+
+import org.example.spring.mvc.entity.entity.Employee;
+
+import java.util.List;
+
+public interface EmployeeService {
+
+    List<Employee> getAllEmployees();
+}
