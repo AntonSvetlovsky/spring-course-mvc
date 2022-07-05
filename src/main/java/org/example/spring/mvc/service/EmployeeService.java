@@ -1,6 +1,6 @@
-package org.example.spring.mvc.entity.service;
+package org.example.spring.mvc.service;
 
-import org.example.spring.mvc.entity.entity.Employee;
+import org.example.spring.mvc.entity.Employee;
 
 import java.util.List;
 

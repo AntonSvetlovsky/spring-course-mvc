@@ -1,4 +1,4 @@
-package org.example.spring.mvc.entity.entity;
+package org.example.spring.mvc.entity;
 
 
 import javax.persistence.*;
