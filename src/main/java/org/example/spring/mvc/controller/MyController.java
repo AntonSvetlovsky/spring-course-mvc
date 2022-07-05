@@ -1,7 +1,7 @@
-package org.example.spring.mvc.entity.controller;
+package org.example.spring.mvc.controller;
 
-import org.example.spring.mvc.entity.entity.Employee;
-import org.example.spring.mvc.entity.service.EmployeeService;
+import org.example.spring.mvc.entity.Employee;
+import org.example.spring.mvc.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
