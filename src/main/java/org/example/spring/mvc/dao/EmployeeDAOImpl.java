@@ -1,7 +1,7 @@
-package org.example.spring.mvc.entity.dao;
+package org.example.spring.mvc.dao;
 
 
-import org.example.spring.mvc.entity.entity.Employee;
+import org.example.spring.mvc.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
