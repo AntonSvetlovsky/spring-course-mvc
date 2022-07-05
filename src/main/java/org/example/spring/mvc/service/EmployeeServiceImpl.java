@@ -1,7 +1,7 @@
-package org.example.spring.mvc.entity.service;
+package org.example.spring.mvc.service;
 
-import org.example.spring.mvc.entity.dao.EmployeeDAO;
-import org.example.spring.mvc.entity.entity.Employee;
+import org.example.spring.mvc.entity.Employee;
+import org.example.spring.mvc.dao.EmployeeDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
