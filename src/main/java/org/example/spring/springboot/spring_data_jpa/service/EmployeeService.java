@@ -1,6 +1,6 @@
-package org.example.spring.springboot.springboot_rest.service;
+package org.example.spring.springboot.spring_data_jpa.service;
 
-import org.example.spring.springboot.springboot_rest.entity.Employee;
+import org.example.spring.springboot.spring_data_jpa.entity.Employee;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package org.example.spring.springboot.springboot_rest;
+package org.example.spring.springboot.spring_data_jpa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootRestApplicationTests {
+class SpringDataJpaApplicationTests {
 
 	@Test
 	void contextLoads() {
