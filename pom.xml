@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.example.spring.springboot</groupId>
-	<artifactId>spring_data_jpa</artifactId>
+	<artifactId>spring_data_rest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring_data_jpa</name>
+	<name>spring_data_rest</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -40,6 +40,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-rest -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
 		</dependency>
 
 	</dependencies>

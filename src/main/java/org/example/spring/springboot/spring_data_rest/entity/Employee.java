@@ -1,4 +1,4 @@
-package org.example.spring.springboot.spring_data_jpa.entity;
+package org.example.spring.springboot.spring_data_rest.entity;
 
 import javax.persistence.*;
 
